@@ -1,0 +1,11 @@
+The feedback I received from the grader for p2 gold spike was mostly positive,
+the only criticism being a buggy jump mechanic. After I resolved that issue,
+I gathered more feedback from my friends. They mentioned the orb was too hard
+to move in real time. To address this issue, I implemented a new mechanic to move
+the orb; instead of moving the orb directly, the right stick now creates a "ghost"
+of the orb which the player controls. It moves at a much faster speed than the orb
+itself. The purpose of the ghost is that upon its creation, the orb will automatically
+start heading towards the ghost, effectly allowing players to schedule the movement of
+the orb. Another complaint was the lack of a sound effect when a player took damage.
+It was added for p2 gold. The speed of the player character and the orb were adjusted
+constantly to find the right balance.
